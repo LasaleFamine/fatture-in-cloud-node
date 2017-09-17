@@ -1,0 +1,58 @@
+{
+	"name": "fatture-in-cloud-node",
+	"version": "0.0.1",
+	"description": "Fatture in Cloud API wrapper for Nodejs",
+	"license": "MIT",
+	"repository": "LasaleFamine/fatture-in-cloud-node",
+	"bugs": {
+		"url": "https://github.com/LasaleFamine/fatture-in-cloud-node/issues",
+		"email": "info@godev.space"
+	},
+	"homepage": "https://github.com/LasaleFamine/fatture-in-cloud-node",
+	"author": {
+		"name": "LasaleFamine",
+		"email": "info@godev.space",
+		"url": "godev.space"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"release": "git pull && standard-version",
+		"test": "xo && nyc ava"
+	},
+	"files": [
+		"src"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"got": "7.1.0"
+	},
+	"devDependencies": {
+		"ava": "0.22.0",
+		"codecov": "2.3.0",
+		"nyc": "11.2.1",
+		"standard-version": "4.2.0",
+		"xo": "0.18.2"
+	},
+	"xo": {
+		"rules": {
+			"max-len": [
+				"error",
+				{
+					"code": 80,
+					"ignoreUrls": true
+				}
+			],
+			"capitalized-comments": "off"
+		}
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	}
+}
