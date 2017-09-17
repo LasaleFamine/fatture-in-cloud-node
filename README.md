@@ -1,4 +1,5 @@
-# fatture-in-cloud-node [![Build Status](https://travis-ci.org/LasaleFamine/fatture-in-cloud-node.svg?branch=master)](https://travis-ci.org/LasaleFamine/fatture-in-cloud-node) [![codecov](https://codecov.io/gh/LasaleFamine/fatture-in-cloud-node/badge.svg?branch=master)](https://codecov.io/gh/LasaleFamine/fatture-in-cloud-node?branch=master)
+# fatture-in-cloud-node
+[![Build Status](https://travis-ci.org/LasaleFamine/fatture-in-cloud-node.svg?branch=master)](https://travis-ci.org/LasaleFamine/fatture-in-cloud-node)
 
 > Fatture in Cloud API wrapper for Nodejs
 
